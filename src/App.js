@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Component/Home';
 import SingleMovie from './Component/SingleMovie';
-import Error from './Error.jsx'
+import Error from './Error.jsx';
+import './Component/Style.css'
 
 function App() {
   return (
