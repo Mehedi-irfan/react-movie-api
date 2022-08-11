@@ -5,6 +5,15 @@ import './Style.css'
 
 const Movies = () => {
     const { movies, isError, isLoading } = useGlobalContext();
+
+    if (isLoading) {
+        return (
+            <div className="">
+                <div className="loading">Loading.....</div>
+            </div>
+        )
+    }
+
     return (
         <>
             <section className="movie-page">

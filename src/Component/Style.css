@@ -48,7 +48,7 @@ img {
 /* resuable code  */
 .container {
   max-width: 140rem;
-  margin: auto;
+  margin: 0 auto;
   padding: 3rem;
 }
 
@@ -59,7 +59,7 @@ img {
 }
 
 .grid-4-col {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .card {
@@ -123,9 +123,13 @@ input {
   color: var(--bg-clr);
   text-align: center;
 }
-
+.movie-page {
+  width: 90% !important;
+  overflow: hidden;
+  margin: 0 auto;
+}
 .movie-card {
-  min-width: 30rem;
+  min-width: 20rem;
   width: 50vw;
   /* padding: 1rem; */
   background-color: var(--bg-clr);
@@ -176,7 +180,7 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-  padding: 3.2rem 1rem;
+  padding: 1rem 3.2rem;
   /* background-color: var(--text-clr); */
   color: var(--text-clr);
   border: 0.2rem solid var(--text-clr);
@@ -202,6 +206,7 @@ a:hover img {
 
 .back-btn {
   padding: 1.2rem 3.6rem;
+  margin-bottom: 3rem;
 }
 
 /* responsive code   */
